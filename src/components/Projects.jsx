@@ -9,29 +9,29 @@ const Projects = () => {
     {
       id: 1,
       Image: WeatherAppImg,
-      title: "Project 1",
-      description: "This is the first project.",
+      title: "Weather Update Application",
+      description: " React weather application built to demonstrate modern front-end engineering skills: clean component design, API integration, responsive UI, performance-conscious builds, accessibility considerations, and deployment readiness.",
       link: "https://carlo022.github.io/React.JS-Weather-Application",
     },
     {
       id: 2,
       Image: EcommerceAppImg,
-      title: "Project 2",
-      description: "This is the second project.",
+      title: "E-Commerce Website",
+      description: "A full-stack e-commerce application built with modern web technologies, featuring a responsive user interface and RESTful backend API. This project demonstrates expertise in building scalable, production-ready web applications with React, Node.js, and JSON-Server authentication.",
       link: "https://eshopus.netlify.app/",
     },
     {
       id: 3,
       Image: OrasAppImg,
-      title: "Project 3",
-      description: "This is the third project.",
+      title: "Time Management Application",
+      description: "a productivity companion designed to help you plan, track, and optimize your daily routine. This project reflects my passion for building intuitive applications and my continuous growth as a developer. Below, I present a quick overview of the app’s functions, the skills I harnessed, and the technologies I leveraged.",
       link: "https://carlo022.github.io/Time-Management-App/",
     },
     {
         id: 4,
         Image: EcommerceAppImg2,
-        title: "Project 4",
-        description: "This is the fourth project.",
+        title: "SmartCart Online Store",
+        description: "A lightweight e-commerce platform built with modern web technologies, featuring a responsive user interface and seamless shopping experience. This project showcases my ability to create efficient, user-friendly applications.",
         link: "https://github.com/carlo022/SmartCart-Lightweight-E-Commerce#readme",
     }
   ];
@@ -44,8 +44,7 @@ const Projects = () => {
             My <span className="text-purple-400">Projects</span>
           </h1>
           <p className="text-gray-400 mt-2 sm:mt-4 text-base">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum,
-            veniam?
+            Here are some of the projects I've worked on. Click on the images to see more details and live demos!
           </p>
         </header>
       </section>

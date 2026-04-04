@@ -7,6 +7,28 @@ import Instagram from "../assets/Socials/instagram.png";
 import Linkedin from "../assets/Socials/linkedin.png";
 
 const Hero = () => {
+  const Socials = [
+    {
+      id: 1,
+      name: "Github",
+      icon: Github,
+      link: "https://github.com/carlo022",
+    },
+    {
+      id: 2,
+      name: "Linkedin",
+      icon: Linkedin,
+      link: "https://www.linkedin.com/in/carl-leonard-lalas-805279187",
+    },
+    {
+      id: 3,
+      name: "Facebook",
+      icon: Facebook,
+      link: "https://www.facebook.com/carlleonardlalas/",
+    },
+    { id: 4, name: "Instagram", icon: Instagram, link: "#" },
+  ];
+
   return (
     <div className="relative overflow-hidden min-h-screen flex flex-col items-center">
       {/* Background Decoration */}
@@ -38,20 +60,27 @@ const Hero = () => {
             </h2>
           </header>
           <p className="text-base sm:text-lg text-gray-200 mb-8 max-w-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            maiores dolorem eaque labore repellat veritatis a sunt quas ullam
-            maxime error officiis mollitia accusamus.
+            Web Developer & Engineer with 6 years of IT field experience. Expert
+            in building modern web interfaces using the React ecosystem.
+            Combines a strong foundation in full-stack development with a
+            professional background in technical problem-solving. Committed to
+            writing clean, maintainable code and delivering user-centric UI
+            components.
           </p>
 
           {/* Social Links */}
           <div className="flex items-center space-x-4 mb-8">
-            {[Github, Linkedin, Facebook, Instagram].map((icon, index) => (
+            {Socials.map((social) => (
               <a
-                key={index}
-                href="#"
+                key={social.id}
+                href={social.link}
                 className="hover:scale-110 transition-transform"
               >
-                <img src={icon} alt="social icon" className="w-10 h-10" />
+                <img
+                  src={social.icon}
+                  alt={social.name}
+                  className="w-10 h-10"
+                />
               </a>
             ))}
           </div>

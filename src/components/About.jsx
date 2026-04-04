@@ -2,8 +2,26 @@ import React from "react";
 import img_about1 from "../assets/img1.png";
 import img_about2 from "../assets/img2.png";
 import img_about from "../assets/img.png";
+import { useState } from "react";
 
 const About = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const FullText = `I’m Carl Leonard Lalas, a Design Software Engineer and Web Developer with over six years of experience in the IT field. 
+  My journey at DENSO Techno Philippines Inc. has taken me from Junior Software Engineer to Senior Design Engineer, where I lead projects, improve application quality, and build modern web solutions using the React ecosystem.
+I specialize in full-stack development, with strong skills in JavaScript, React.js, Node.js, Express.js, MongoDB, SQL, and Tailwind CSS. 
+My work spans creating scalable APIs, secure authentication systems, and user-focused interfaces. Alongside my professional career, 
+I’ve built projects like SmartCart (a lightweight e-commerce platform), a Weather Update App, and a Time Management Application—each 
+reflecting my drive to solve problems through design and technology.
+I’m passionate about continuous learning, with certifications and masterclasses in React, MERN stack, and advanced JavaScript shaping 
+my growth. Right now, I’m focused on expanding my portfolio with polished web projects and pursuing part-time opportunities in web 
+development and e-commerce to fuel my creative ambitions.
+I’m excited to connect with like-minded professionals and explore new opportunities in the web development space. Let’s create something 
+amazing together!`;
+
+    // Define how many characters to show by default
+  const characterLimit = 210;
+
   return (
     <section
       id="about"
@@ -44,14 +62,14 @@ const About = () => {
             </h1>
           </header>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut
-            aperiam quia dignissimos corrupti, hic fugit, eveniet reprehenderit
-            possimus voluptatum tenetur provident consequatur itaque id rerum?
-            Quo quaerat ab
+            {isExpanded ? FullText : `${FullText.substring(0, characterLimit)}...`}
           </p>
           <footer>
-            <button className="inline-flex text-white border-2 py-2 px-4 sm:px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-sm sm:text-lg">
-              Learn More
+            <button 
+              className="inline-flex text-white border-2 py-2 px-4 sm:px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-sm sm:text-lg"
+              onClick={() => setIsExpanded(!isExpanded)}
+            >
+              {isExpanded ? "Show Less" : "Show More"}
             </button>
           </footer>
         </article>
