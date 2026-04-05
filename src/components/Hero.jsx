@@ -5,6 +5,7 @@ import Github from "../assets/Socials/github.png";
 import Facebook from "../assets/Socials/facebook.png";
 import Instagram from "../assets/Socials/instagram.png";
 import Linkedin from "../assets/Socials/linkedin.png";
+import CV from "../assets/CV(Carl Leonard Lalas)2026.pdf";
 
 const Hero = () => {
   const Socials = [
@@ -85,7 +86,7 @@ const Hero = () => {
             ))}
           </div>
 
-          <a href="/path-to-cv" download>
+          <a href={CV} download>
             <button className="text-white border-2 py-2 px-8 hover:bg-[#801b9c] hover:shadow-[0_0_30px_rgba(128,0,128,0.5)] transition-all rounded-full text-lg">
               Download My CV
             </button>
