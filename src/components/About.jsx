@@ -1,7 +1,7 @@
 import React from "react";
 import img_about1 from "../assets/img1.png";
 import img_about2 from "../assets/img2.png";
-import img_about from "../assets/img.png";
+import img_about from "../assets/img.PNG";
 import { useState } from "react";
 
 const About = () => {

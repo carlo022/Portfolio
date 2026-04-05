@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
-import HeroImg from "../assets/HeroImg.png";
+import HeroImg from "../assets/HeroImg.PNG";
 import Github from "../assets/Socials/github.png";
 import Facebook from "../assets/Socials/facebook.png";
 import Instagram from "../assets/Socials/instagram.png";

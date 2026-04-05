@@ -3,11 +3,11 @@ import BackEnd from "../assets/SkillIcon/BackEnd.png";
 import Tools from "../assets/SkillIcon/Tools.png";
 import DataBase from "../assets/SkillIcon/DataBases.png";
 import Security from "../assets/SkillIcon/Security.png";
-import web from "../assets/SkillIcon/web.png";
+import web from "../assets/SkillIcon/Web.png";
 import Api from "../assets/SkillIcon/Api.png";
 import SkillBox from "./Elements/SkillBox";
-import SkillImg1 from "../assets/SkillImg1.png";
-import SkillImg2 from "../assets/SkillImg2.png";
+import SkillImg1 from "../assets/SkillImg1.PNG";
+import SkillImg2 from "../assets/SkillImg2.PNG";
 import { useState } from "react";
 
 const Skills = () => {
