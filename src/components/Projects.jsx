@@ -1,6 +1,6 @@
-import WeatherAppImg from "../assets/ProjectsImage/weatherapp.png";
-import EcommerceAppImg from "../assets/ProjectsImage/ecommerceapp.png";
-import OrasAppImg from "../assets/ProjectsImage/orasapp.png";
+import WeatherAppImg from "../assets/ProjectsImage/WeatherApp.png";
+import EcommerceAppImg from "../assets/ProjectsImage/EcommerceApp.png";
+import OrasAppImg from "../assets/ProjectsImage/OrasApp.png";
 import EcommerceAppImg2 from "../assets/ProjectsImage/EcommerceApp2.png";
 import ProjectCard from "./Elements/ProjectCard.jsx";
 
