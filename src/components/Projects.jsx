@@ -33,6 +33,13 @@ const Projects = () => {
         title: "SmartCart Online Store",
         description: "A lightweight e-commerce platform built with modern web technologies, featuring a responsive user interface and seamless shopping experience. This project showcases my ability to create efficient, user-friendly applications.",
         link: "https://github.com/carlo022/SmartCart-Lightweight-E-Commerce#readme",
+    },
+    {
+        id: 5,
+        Image: MERN.png,
+        title: "MERN stack application",
+        description: "A full-stack MERN application built with MongoDB, Express.js, React, and Node.js. This project demonstrates my proficiency in building scalable web applications with a modern tech stack.",
+        link: "https://mern-project-drab-nu.vercel.app",
     }
   ];
 
