@@ -40,7 +40,7 @@ const Skills = () => {
       id: 4,
       image: web,
       title: "Web Technologies",
-      Description: "HTML5, CSS3, JavaScript ES6",
+      Description: "HTML5, CSS3, JavaScript ES6, Typescript",
       proficiency: 95,
       category: "FrontEnd",
     },

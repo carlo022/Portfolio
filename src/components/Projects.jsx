@@ -3,6 +3,7 @@ import EcommerceAppImg from "../assets/ProjectsImage/EcommerceApp.png";
 import OrasAppImg from "../assets/ProjectsImage/OrasApp.png";
 import EcommerceAppImg2 from "../assets/ProjectsImage/EcommerceApp2.png";
 import ProjectCard from "./Elements/ProjectCard.jsx";
+import MERN from "../assets/ProjectsImage/MERN.png";
 
 const Projects = () => {
   const ProjectList = [
@@ -36,7 +37,7 @@ const Projects = () => {
     },
     {
         id: 5,
-        Image: MERN.png,
+        Image: MERN,
         title: "MERN stack application",
         description: "A full-stack MERN application built with MongoDB, Express.js, React, and Node.js. This project demonstrates my proficiency in building scalable web applications with a modern tech stack.",
         link: "https://mern-project-drab-nu.vercel.app",
