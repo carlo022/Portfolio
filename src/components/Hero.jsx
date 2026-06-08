@@ -5,7 +5,7 @@ import Github from "../assets/Socials/github.png";
 import Facebook from "../assets/Socials/facebook.png";
 import Instagram from "../assets/Socials/instagram.png";
 import Linkedin from "../assets/Socials/linkedin.png";
-import CV from "../assets/CV(Carl Leonard Lalas)2026.pdf";
+import CV from "../assets/CV_Carl_Leonard.pdf";
 
 const Hero = () => {
   const Socials = [
