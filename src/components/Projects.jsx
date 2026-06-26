@@ -4,6 +4,7 @@ import OrasAppImg from "../assets/ProjectsImage/OrasApp.png";
 import EcommerceAppImg2 from "../assets/ProjectsImage/EcommerceApp2.png";
 import ProjectCard from "./Elements/ProjectCard.jsx";
 import MERN from "../assets/ProjectsImage/MERN.png";
+import BudgetTracker from "../assets/ProjectsImage/BudgetTracker.png";
 
 const Projects = () => {
   const ProjectList = [
@@ -33,7 +34,7 @@ const Projects = () => {
         Image: EcommerceAppImg2,
         title: "SmartCart Online Store",
         description: "A lightweight e-commerce platform built with modern web technologies, featuring a responsive user interface and seamless shopping experience. This project showcases my ability to create efficient, user-friendly applications.",
-        link: "https://github.com/carlo022/SmartCart-Lightweight-E-Commerce#readme",
+        link: "https://carlo022.github.io/SmartCart-Lightweight-E-Commerce",
     },
     {
         id: 5,
@@ -41,6 +42,13 @@ const Projects = () => {
         title: "MERN stack application",
         description: "A full-stack MERN application built with MongoDB, Express.js, React, and Node.js. This project demonstrates my proficiency in building scalable web applications with a modern tech stack.",
         link: "https://mern-project-drab-nu.vercel.app",
+    },
+    {
+      id: 6,
+      Image: BudgetTracker,
+      title: "Budget Tracker",
+      description: "A simple yet effective budget tracking application built with modern web technologies. This project showcases my ability to create user-friendly applications that help users manage their finances. showcase also my skills in tailwind CSS, React, and JavaScript and demostrate my ability in backend development with Node.js and Express.js, as well as my proficiency in database management with MongoDB.",
+      link: "https://budgetingtask.netlify.app",
     }
   ];
 

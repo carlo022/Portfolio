@@ -5,6 +5,7 @@ import DataBase from "../assets/SkillIcon/DataBases.png";
 import Security from "../assets/SkillIcon/Security.png";
 import web from "../assets/SkillIcon/Web.png";
 import Api from "../assets/SkillIcon/Api.png";
+import AI from "../assets/SkillIcon/AIimage.png";
 import SkillBox from "./Elements/SkillBox";
 import SkillImg1 from "../assets/SkillImg1.PNG";
 import SkillImg2 from "../assets/SkillImg2.PNG";
@@ -68,6 +69,14 @@ const Skills = () => {
       proficiency: 95,
       category: "Tools",
     },
+    {
+      id: 8,
+      image: AI,
+      title: "AI tools, AI automation, and AI prompt engineering",
+      Description: "Azure openAI, ChatGPT, Power Automation, Gen-AI, and other AI tools",
+      proficiency: 75,
+      category: "AI",
+    }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
