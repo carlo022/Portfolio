@@ -3,6 +3,7 @@ import EcommerceAppImg from "../assets/ProjectsImage/EcommerceApp.png";
 import OrasAppImg from "../assets/ProjectsImage/OrasApp.png";
 import EcommerceAppImg2 from "../assets/ProjectsImage/EcommerceApp2.png";
 import ProjectCard from "./Elements/ProjectCard.jsx";
+import ShopifyDemo from "../assets/ProjectsImage/ShopifyShop.png";
 import MERN from "../assets/ProjectsImage/MERN.png";
 import BudgetTracker from "../assets/ProjectsImage/BudgetTracker.png";
 
@@ -49,6 +50,13 @@ const Projects = () => {
       title: "Budget Tracker",
       description: "A simple yet effective budget tracking application built with modern web technologies. This project showcases my ability to create user-friendly applications that help users manage their finances. showcase also my skills in tailwind CSS, React, and JavaScript and demostrate my ability in backend development with Node.js and Express.js, as well as my proficiency in database management with MongoDB.",
       link: "https://budgetingtask.netlify.app",
+    },
+    {
+      id: 7,
+      Image: ShopifyDemo,
+      title: "Shopify Store Demo",
+      description: "A demo of a Shopify store built with modern web technologies. This project showcases my ability to use CRM platforms and e-commerce solutions to create efficient, user-friendly applications. To view the password is welcome.  ",
+      link: "https://stackstore-devs.myshopify.com",
     }
   ];
 
