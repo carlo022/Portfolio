@@ -61,7 +61,7 @@ amazing together!`;
               About Me
             </h1>
           </header>
-          <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 leading-relaxed">
             {isExpanded ? FullText : `${FullText.substring(0, characterLimit)}...`}
           </p>
           <footer>

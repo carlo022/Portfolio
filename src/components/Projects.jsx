@@ -64,10 +64,10 @@ const Projects = () => {
     <main id="myprojects" className="p-4">
       <section data-aos="fade-up" data-aos-delay="300">
         <header className="text-center">
-          <h1 className="text-3xl text-white sm:text-4xl font-bold mb-6">
+          <h1 className="text-3xl text-white sm:text-4xl font-bold mb-6 lg:text-6xl">
             My <span className="text-purple-400">Projects</span>
           </h1>
-          <p className="text-gray-400 mt-2 sm:mt-4 text-base">
+          <p className="text-gray-200 mt-2 sm:mt-4 text-base">
             Here are some of the projects I've worked on. Click on the images to see more details and live demos!
           </p>
         </header>
