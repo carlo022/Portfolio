@@ -6,6 +6,7 @@ import ProjectCard from "./Elements/ProjectCard.jsx";
 import ShopifyDemo from "../assets/ProjectsImage/ShopifyShop.png";
 import MERN from "../assets/ProjectsImage/MERN.png";
 import BudgetTracker from "../assets/ProjectsImage/BudgetTracker.png";
+import PhoneBookApp from "../assets/ProjectsImage/PhoneBookApp.png";
 
 const Projects = () => {
   const ProjectList = [
@@ -57,6 +58,14 @@ const Projects = () => {
       title: "Shopify Store Demo",
       description: "A demo of a Shopify store built with modern web technologies. This project showcases my ability to use CRM platforms and e-commerce solutions to create efficient, user-friendly applications. To view the password is welcome.  ",
       link: "https://stackstore-devs.myshopify.com",
+    }
+    ,
+    {
+      id: 8,
+      Image: PhoneBookApp,
+      title: "Phone Book Application",
+      description: "A full-stack contact management application featuring secure JWT authentication, protected routing, and automated password reset workflows powered by the Mailtrap API. Built utilizing a hybrid database architecture with MongoDB and MySQL, the application ensures both flexible document storage and robust relational data integrity.",
+      link: "https://phonebook-app-tau.vercel.app",
     }
   ];
 
